@@ -25,15 +25,12 @@
 
   .row {
       display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "col1 col2"
-    "col3 col4"
-
-  ;
+    "col3 col4";
   }
-
 
 .beforeafter {
     background-size: contain;

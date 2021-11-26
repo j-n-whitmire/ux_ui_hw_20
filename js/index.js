@@ -3,7 +3,7 @@
 
 
 
-//Research Section
+//Research Section Accordion Collapses
 $('.collapse').collapse({
     toggle:true
 })

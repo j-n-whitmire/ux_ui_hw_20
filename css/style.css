@@ -1,3 +1,5 @@
+
+
 .body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -28,6 +30,13 @@
 .flexContainer {
     display: flex;
     padding: 60px 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
   }
   .flexContainer div {
     width: 33%;
@@ -35,12 +44,15 @@
   }
 
   .row {
-      display: grid;
+    display: grid;
+    margin: 0px 5%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "col1 col2"
-    "col3 col4";
+    "col1"
+    "col2"
+    "col3" 
+    "col4";
   }
 
 .beforeafter {

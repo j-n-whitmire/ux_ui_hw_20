@@ -1,7 +1,13 @@
-
-
-
-
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    max-width: 300px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ba9e8a;
+    text-align: center;
+  }
 
 /* Iteration Section */
 .media-body{
@@ -11,6 +17,11 @@
 .iterations{
     align-items: center;
     align-content: center;
+}
+
+/* Research Accordion */
+.collapse{
+    
 }
 
 /*Prototype*/

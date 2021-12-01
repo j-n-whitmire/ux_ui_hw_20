@@ -4,11 +4,11 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
-    max-width: 300px;
+    max-width: 2000px;
     margin: auto;
     padding: 30px;
     background-color: #ba9e8a;
-    text-align: center;
+    text-align: left;
   }
 
 /* Iteration Section */
@@ -27,36 +27,36 @@
 }
 
 /*Prototype*/
-.flexContainer {
+.Container {
     display: flex;
-    padding: 60px 30px;
+    padding: 10px 10px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 5px;
+    margin: 0px;
     cursor: pointer;
     display: grid;
     align-content: end;
   }
   .flexContainer div {
-    width: 33%;
-    padding: 25px;
+    width: 0;
+    padding: 0px;
   }
 
   .row {
     display: grid;
-    margin: 0px 5%;
+    margin: 0px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "col1"
-    "col2"
-    "col3" 
-    "col4";
+    "col-6"
+    "col-6"
+    "col-6" 
+    "col-6";
   }
 
 .beforeafter {
     background-size: contain;
-    width: 50%;
+    width: 10%;
     height: auto;
 }
